@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="./custom/customAdv.css">
+        <link href="https://www.google.com/images/branding/product/1x/gsa_android_144dp.png" rel="icon">
+    </head>
+    <body>
+        <div class="main">
+
+            <a href="index.html"><img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"></a>
+
+            <h4>Google Advanced Search</h4>
+            <hr>
+            <form action="https://www.google.com/search">
+
+                <div class="label-input-container">
+                    <label for="all-words">All these words:</label>
+                    <input type="text" id="all-words" name="as_q" placeholder="Enter exact phrase">
+                </div>
+                
+                <div class="label-input-container">
+                    <label for="exact-word-or-phrase">This exact word or phrase:</label>
+                    <input type="text" id="exact-word-or-phrase" name="as_epq" placeholder="Enter exact word or phrase">
+                </div>
+                
+                <div class="label-input-container">
+                    <label for="any-words">Any of these words:</label>
+                    <input type="text" id="any-words" name="as_oq" placeholder="Enter words separated by OR">
+                </div>
+                
+                <div class="label-input-container">
+                    <label for="none-words">None of these words:</label>
+                    <input type="text" id="none-words" name="as_eq" placeholder="Enter words to exclude">
+                </div>
+            
+                <input type="submit" value="Advanced Search" class="button">
+            </form>
+        </div>
+    </body>
+    
+</html>

@@ -1,0 +1,73 @@
+body {
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+div {
+  display: flex;
+}
+
+div.header {
+  justify-content: flex-end;
+  height: 5em;
+  align-items: center;
+}
+
+div.header a {
+  color: rgb(20, 20, 20);
+  text-decoration: none;
+  margin: 0 8px 0 8px;
+}
+div.header a:hover {
+  text-decoration: underline;
+}
+
+div.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+#logo {
+  width: 272px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  justify-items: center;
+}
+
+input[type=text] {
+  display: block;
+  width: 500px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 24px;
+  outline: none;
+}
+input[type=text]:hover {
+  filter: drop-shadow(4px 4px 8px #c5c5c5);
+}
+
+input[type=submit] {
+  display: block;
+  margin-left: 15px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 24px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+input[type=submit]:hover {
+  background-color: #e8e8e8;
+}/*# sourceMappingURL=custom.css.map */
